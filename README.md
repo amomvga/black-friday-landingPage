@@ -1,6 +1,6 @@
 ## Landing Page Black Friday
 
-<span>Tecnologias usadas:</span>
+<span>Ferramentas usadas:</span>
 <ul>
     <li>HTML</li>
     <li>BOOTSTRAP</li>
