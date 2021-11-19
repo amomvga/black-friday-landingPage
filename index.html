@@ -12,9 +12,10 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Black Friday</a>
+            <a class="navbar-brand" href="">Black Friday</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,6 +33,7 @@
             </div>
         </div>
     </nav>
+
     <div class="text-center text-white" style="background-color: black;">
         <img src="public/Gráfico-Black-Friday-PNG.png" class="img-fluid"
             style="max-height: 200px; margin-top: 180px; margin-bottom: 50px;">
@@ -50,19 +52,32 @@
                 </ul>
             </div>
         </div>
+
         <div>
             <p class="fs-5 mt-5">CADASTRE-SE E SEJA O PRIMEIRO A RECEBER NOSSAS OFERTAS</p>
         </div>
+
         <div class="container mt-4 w-50">
             <form>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Cadastre seu melhor email:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="exampleInputEmail1" class="form-label mt-5 mb-4">Cadastre seu melhor email:</label><br>
+                    <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+                <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu Nome"><br>
+                    <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                    </svg>
+                    <input type="email" class="mt-4" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Seu Email">
                     <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
+
         <div class="container mt-5 mb-5 text-center">
             <p class="fs-4 mt-5">Enquanto isso fique de olho em outras ofertas:</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
